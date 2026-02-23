@@ -1,0 +1,57 @@
+{
+  "name": "tccodeeditor",
+  "widgetName": "tccodeeditor",
+  "version": "1.0.0",
+  "description": "CodeEditor for Mendix",
+  "copyright": "© Mendix Technology BV 2022. All rights reserved.",
+  "author": "Alexandre Sepe",
+  "engines": {
+    "node": ">=16"
+  },  
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "../../Mendix/HtmlToPDFTemplate-main",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "truechange",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^10.15.0",
+    "@types/big.js": "^6.0.2",
+    "@types/jest": "^29.0.0",
+    "@types/uuid": "^10.0.0"
+  },
+  "dependencies": {
+    "@uiw/react-codemirror": "^4.25.4",    
+    "@uiw/codemirror-theme-vscode": "^4.25.4",
+    "@codemirror/lang-html": "^6.4.11",
+    "@codemirror/lang-javascript": "^6.2.4",
+    "@codemirror/lang-json": "^6.0.2",
+    "@codemirror/lang-css": "^6.3.1"
+  },
+  "overrides": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.7",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@types/react-native": "0.72.7"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.7",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@types/react-native": "0.72.7"
+  }
+}
