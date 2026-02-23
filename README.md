@@ -1,8 +1,6 @@
-## tccodeeditor
-[tccodeeditor for Mendix]
 # TcCodeEditor
 
-TcCodeEditor is a Mendix widget that provides an embeddable code editor for your Mendix apps. It is built on top of the React CodeMirror integration (`react-codemirror` / CodeMirror 6) and exposes a simple set of properties to edit, view, and validate code inside the Mendix Modeler and runtime pages.
+git remote add origin https://github.com/AlexSepe/tcCodeEditor.git It is built on top of the React CodeMirror integration (`react-codemirror` / CodeMirror 6) and exposes a simple set of properties to edit, view, and validate code inside the Mendix Modeler and runtime pages.
 
 **Features**
 
